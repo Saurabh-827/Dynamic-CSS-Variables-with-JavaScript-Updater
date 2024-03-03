@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scoped CSS Variables & Javascript</title>
+</head>
+<body>
+    <h1>Update CSS Variables with <span class="highlight">Javascript</span></h1>
+    <div class="controls">
+        <label for="Spacing">Spacing:</label>
+        <input type="range" name="Spacing" class="range" min="0" max="200" value="10" data-sizing="px">
+        <label for="Blur" >Blur:</label>
+        <input type="range" name="Blur" class="range" min="0" max="25" value="1" data-sizing="px">
+        <label for="Color">Color:</label>
+        <input type="color" name="Color" value="#ff0000">
+    </div>
+    <div>
+        <img id="image" src="natureimage.jpg" alt="natureimage">
+    </div>
+    <input type="file" id="imageInput"  accept="image/*">
+    <script src="main.js"></script>   
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: #2b0a63;
+    color: azure;
+    font-weight: 100;
+}
+
+/* css variables */
+:root {
+    --Color: #ce0d3d;
+    --Spacing: 10px;
+    --Blur: 1px;
+}
+
+img {
+    padding: var(--Spacing);
+    background: var(--Color);
+    filter: blur(var(--Blur));
+}
+
+.highlight {
+    color: var(--Color);
+}
+
+.controls {
+    display: flex; /* i used this to make the input and text in perfect alignment */
+    justify-content: center;
+    gap: 10px;
+    font-size: 21px;
+    margin-bottom: 21px;
+}
+#imageInput {
+    margin-top: 10px;
+}
+
