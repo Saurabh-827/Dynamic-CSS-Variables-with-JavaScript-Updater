@@ -1,4 +1,4 @@
-# 🎨 Scoped CSS Variables & Javascript
+# 🎨 Dynamic-CSS-Variables-with-JavaScript-Updater
 
 This project is a simple demonstration of how to manipulate CSS variables using JavaScript. It allows users to dynamically change the spacing, blur, and color of an image. 🖼️
 
